@@ -1,0 +1,7 @@
+[template]
+src = "influxdb.toml.tmpl"
+dest = "/opt/influxdb.toml"
+keys = [
+  "/influxdb",
+]
+reload_cmd = "service restart influxdb"
